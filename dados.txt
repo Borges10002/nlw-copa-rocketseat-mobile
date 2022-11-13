@@ -46,3 +46,20 @@ npx expo install react-native-screens react-native-safe-area-context
 
 https://reactnavigation.org/docs/tab-based-navigation
 npm install @react-navigation/bottom-tabs
+
+biblioteca para pega codigo do pais
+npm i country-list
+npm i --save-dev @types/country-list
+
+biblioteca retorna a bandeira baseado no codigo
+npm install --save react-native-country-flag
+
+biblioteca de formata data
+https://day.js.org/docs/en/installation/typescript
+npm install dayjs
+formatar para portugues
+import ptBR from 'dayjs/locale/pt-br';
+
+biblioteca para fucionar o .env no react native 
+npm i dotenv babel-plugin-inline-dotenv
+executa assim apos estalar-> npx expo start --clear
